@@ -1,0 +1,27 @@
+{
+  "name": "submodule",
+  "version": "1.2.1",
+  "description": "automating the installation of node modules for submodules",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/selfquery/submodule.git"
+  },
+  "keywords": [
+    ".gitmodules",
+    "submodules",
+    "install"
+  ],
+  "author": "selfquery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/selfquery/submodule/issues"
+  },
+  "homepage": "https://gitlab.com/selfquery/submodule#README",
+  "dependencies": {
+    "yargs": "^12.0.1"
+  }
+}
